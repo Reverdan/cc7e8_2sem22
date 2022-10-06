@@ -1,0 +1,7 @@
+D:\Documentos\GitHub\cc7e8_2sem22\CalculadoraWCFServer\CalculadoraWCFServer\bin\CalculadoraWCFServer.dll.config
+D:\Documentos\GitHub\cc7e8_2sem22\CalculadoraWCFServer\CalculadoraWCFServer\bin\CalculadoraWCFServer.dll
+D:\Documentos\GitHub\cc7e8_2sem22\CalculadoraWCFServer\CalculadoraWCFServer\bin\CalculadoraWCFServer.pdb
+D:\Documentos\GitHub\cc7e8_2sem22\CalculadoraWCFServer\CalculadoraWCFServer\obj\Debug\CalculadoraWCFServer.csproj.AssemblyReference.cache
+D:\Documentos\GitHub\cc7e8_2sem22\CalculadoraWCFServer\CalculadoraWCFServer\obj\Debug\CalculadoraWCFServer.csproj.CoreCompileInputs.cache
+D:\Documentos\GitHub\cc7e8_2sem22\CalculadoraWCFServer\CalculadoraWCFServer\obj\Debug\CalculadoraWCFServer.dll
+D:\Documentos\GitHub\cc7e8_2sem22\CalculadoraWCFServer\CalculadoraWCFServer\obj\Debug\CalculadoraWCFServer.pdb
