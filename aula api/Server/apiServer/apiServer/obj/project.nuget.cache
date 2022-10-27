@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "u+9I+OKFZu8LNAuOi62MN2DCEH3VFMIRASW+V+mvIvVbecjPiBTjMvQfqrtEjEhIGN/37vsvhuCP/rG+x+4uCQ==",
+  "success": true,
+  "projectFilePath": "D:\\Documentos\\Visual Studio 2022\\projetos\\aula api\\Server\\apiServer\\apiServer\\apiServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rever\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Rever\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Rever\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Rever\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Rever\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Rever\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

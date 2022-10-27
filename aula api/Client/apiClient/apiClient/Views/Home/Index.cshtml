@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<link rel="stylesheet" href="~/Content/Home.css" asp-append-version="true" />
+
+<div class="jumbotron">
+    <h1>Triângulos</h1>
+    <p class="lead">Aplicação para identificação de um tipo de Triângulo</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div id="divFormLogar" class="col-sm-2">
+            <label class="control-label">Lado 1</label>
+            <input id="inpL1" class="form-control" />
+            <label class="control-label">Lado 2</label>
+            <input id="inpL2" class="form-control"/>
+            <label class="control-label">Lado 3</label>
+            <input id="inpL3" class="form-control"/>
+            <button  id="btCalcular" class="btn btn-primary form-control" onclick="calcular()">Calcular</button>
+            <label id="lblResultado" class="control-label">Resultado</label>
+        </div>
+        <div class="col-sm-10">
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function calcular()
+    {
+        var l1 = document.getElementById("inpL1").value;
+        var l2 = document.getElementById("inpL2").value;
+        var l3 = document.getElementById("inpL3").value;
+        var uri = `http://localhost:5086/api/Triangulos?l1=${l1}&l2=${l2}&l3=${l3}`;
+        fetchAsync(uri);
+    }
+
+    async function fetchAsync(url) 
+    {
+        var response = await fetch(url);
+        if (response.ok) {
+            var data = await response.text();
+            document.getElementById("lblResultado").innerText = data;
+        }
+        else
+        {
+            document.getElementById("lblResultado").innerText = "Preencha todos os campos";
+        }
+
+    }
+
+</script>
